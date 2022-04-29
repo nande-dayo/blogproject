@@ -24,9 +24,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-%at^#x3z+@cry%%$1mbdjbuh*ufxsrf^__umg8mqpww8b)*!h('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
+    'localhost',
     'ubuntuari.pythonanywhere.com',
 ]
 
@@ -41,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blogpost',
+    'hello',
 
 ]
 
